@@ -21,8 +21,16 @@ struct FGameplayAttributeData;
 
 // ********** Begin Class UGasBasicAttributeSet ****************************************************
 #define FID_Unreal_Projects_testgas_Plugins_GasBasic_Source_GasBasic_GasBasicAttributeSet_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execOnRep_AttackPower); \
-	DECLARE_FUNCTION(execOnRep_Damage); \
+	DECLARE_FUNCTION(execOnRep_MaxMana); \
+	DECLARE_FUNCTION(execOnRep_Mana); \
+	DECLARE_FUNCTION(execOnRep_HitScanDamage); \
+	DECLARE_FUNCTION(execOnRep_ProjectileDamage); \
+	DECLARE_FUNCTION(execOnRep_MeleeDamage); \
+	DECLARE_FUNCTION(execOnRep_MaxArmor); \
+	DECLARE_FUNCTION(execOnRep_Armor); \
+	DECLARE_FUNCTION(execOnRep_MaxShield); \
+	DECLARE_FUNCTION(execOnRep_Shield); \
+	DECLARE_FUNCTION(execOnRep_MaxHealth); \
 	DECLARE_FUNCTION(execOnRep_Health);
 
 
@@ -41,9 +49,17 @@ public: \
 	{ \
 		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
 		Health=NETFIELD_REP_START, \
-		Damage, \
-		AttackPower, \
-		NETFIELD_REP_END=AttackPower	}; \
+		MaxHealth, \
+		Shield, \
+		MaxShield, \
+		Armor, \
+		MaxArmor, \
+		MeleeDamage, \
+		ProjectileDamage, \
+		HitScanDamage, \
+		Mana, \
+		MaxMana, \
+		NETFIELD_REP_END=MaxMana	}; \
 	DECLARE_VALIDATE_GENERATED_REP_ENUMS(NO_API) \
 private: \
 	REPLICATED_BASE_CLASS(UGasBasicAttributeSet) \
