@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-GasBasic.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Unreal Projects/testgas/Intermediate/Build/Win64/x64/testgasEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:/Unreal Projects/testgas/Plugins/GasBasic/Intermediate/Build/Win64/x64/UnrealEditor/Development/GasBasic/Module.GasBasic.cpp.obj"
+"C:/Unreal Projects/testgas/Plugins/GasBasic/Intermediate/Build/Win64/x64/UnrealEditor/Development/GasBasic/GasBasic.cpp.obj"
+"C:/Unreal Projects/testgas/Plugins/GasBasic/Intermediate/Build/Win64/x64/UnrealEditor/Development/GasBasic/GasBasicAttributeSet.cpp.obj"
+"C:/Unreal Projects/testgas/Plugins/GasBasic/Intermediate/Build/Win64/x64/UnrealEditor/Development/GasBasic/Default.rc2.res"
+/OUT:"C:/Unreal Projects/testgas/Plugins/GasBasic/Intermediate/Build/Win64/x64/UnrealEditor/Development/GasBasic/UnrealEditor-GasBasic.lib"

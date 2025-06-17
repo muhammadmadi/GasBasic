@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GasBasic.cpp.obj": [
+			"GasBasic.init.gen.cpp.obj",
+			"GasBasicAttributeSet.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"GasBasic.cpp.obj",
+			"GasBasicAttributeSet.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\unreal projects\\testgas\\plugins\\gasbasic\\source\\gasbasic\\gasbasic.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unreal projects\\testgas\\intermediate\\build\\win64\\x64\\testgaseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\unreal projects\\testgas\\plugins\\gasbasic\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gasbasic\\definitions.gasbasic.h",
+            "c:\\unreal projects\\testgas\\plugins\\gasbasic\\source\\gasbasic\\gasbasic.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
